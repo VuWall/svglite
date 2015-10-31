@@ -1,0 +1,53 @@
+{
+  "name": "svglite",
+  "version": "0.0.1",
+  "description": "Scalable Vector Graphic library",
+  "main": "src/svglite.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "karma start"
+  },
+  "keywords": [
+    "svg",
+    "JavaScript",
+    "Scalable",
+    "Vector",
+    "Graphic"
+  ],
+  "author": "VuWall",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VuWall/svglite.git"
+  },
+  "homepage": "https://github.com/VuWall/svglite#readme",
+  "bugs": {
+    "url": "https://github.com/VuWall/svglite/issues"
+  },
+  "jspm": {
+    "directories": {
+      "test": "test"
+    },
+    "dependencies": {
+      "lodash": "npm:lodash@^3.10.1"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "chai": "npm:chai@^3.4.0",
+      "core-js": "npm:core-js@^1.1.4",
+      "sinon": "npm:sinon@^1.17.2"
+    }
+  },
+  "devDependencies": {
+    "jspm": "^0.16.13",
+    "karma": "^0.13.14",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-jspm": "^2.0.2",
+    "karma-mocha": "^0.2.0",
+    "mocha": "^2.3.3",
+    "sinon": "^1.17.2"
+  }
+}
